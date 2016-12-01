@@ -1,0 +1,31 @@
+{
+    "opType": "GetOrderTransactions",
+    "url_sandbox": "https://api.sandbox.ebay.com/ws/api.dll",
+    "url": "https://api.ebay.com/ws/api.dll",
+    "GetOrders": {
+        "requestName": "GetOrdersRequest",
+        "requestBody": {
+            "OrderIDArray": {
+                "OrderID": [
+                    "172253195881-1585232189007"
+                ]
+            }
+        }
+    },
+    "GetItem": {
+        "requestName": "GetItemRequest",
+        "requestBody": {
+            "ItemID": "172228599253"
+        }
+    },
+    "GetOrderTransactions": {
+        "requestName": "GetOrderTransactionsRequest",
+        "requestBody": {
+            "OrderIDArray": {
+                "OrderID": [
+                    "172253195881-1585232189007"
+                ]
+            }
+        }
+    }
+}
